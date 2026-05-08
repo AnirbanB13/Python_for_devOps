@@ -87,7 +87,7 @@
 # engine.runAndWait()
 
 
-import os
+# import os
 
 # print(os.listdir('.'))
 
@@ -120,4 +120,50 @@ import os
 
 # if (name.find("goo")):
 #     print(name.index("goo"))
+
+# name = "harry  is a good boy and a great buddy"
+ 
+# print(name.replace("  ", " "))
+
+# letter = "Dear Harry, \n\tThis is Python course. \nThanks!"
+# print(letter)
+
+#friends = ["Anirban", "Satyarth", "Orange", 1, 345.6 , False, "Rohit", "Satyarth"]
+# print(friends[1:5])
+
+# friends[0] = "Anirban Das"    #Unlike strings, lists are mutable, which means we can change their content without changing their identity.
+# print(friends)
+
+# friends.append("Harry")
+# print(friends)
+
+# friends.insert(1, "Satyarth")
+# print(friends)
+
+# friends.remove("Satyarth")
+# print(friends)
+
+# friends.pop(1)
+# print(friends)
+
+# l1 = [1, 5, 3, 9, 2]
+
+# l1.sort()
+# print(l1)
+
+# l1.reverse()
+# print(l1)
+
+# l1.insert(3, 333333)
+# print(l1)
+
+# marks = []
+# m1 = input("Enter the marks of 5 students separated by space: ").split()
+# marks = [int(i) for i in m1]
+# print(marks)
+
+# a = (1, 2, 3, 4, 5, 5, 5, 5, 5, 5)
+
+# n = a.count(5)
+# print(n)
 
