@@ -232,3 +232,24 @@ marks = {
 # dic.update({n1: m1})
 # print(dic)
 
+# age = int(input("Enter your age: "))
+# if age < 18:
+#     print("You are a minor.")
+# elif age >= 18 and age < 65:
+#     print("You are an adult.")
+# else:
+#     print("You are a senior citizen.")
+
+#****SPAM FILTER****
+
+# m1 = "buy now"
+# m2 = "limited time offer"
+# m3 = "click this"
+
+# message = input("Enter your message: ")
+
+# if (m1 in message) or (m2 in message) or (m3 in message):
+#     print(f"This message is spam, In contains {message}" )  
+# else:    
+#     print("This message is not spam.")
+
