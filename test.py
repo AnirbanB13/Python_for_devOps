@@ -167,3 +167,67 @@
 # n = a.count(5)
 # print(n)
 
+marks = {
+    "Anirban": 95,
+    "Satyarth": 90,
+    "Rohit": 85,
+    "Harry": 80
+}
+
+# # # print(marks, type(marks))
+
+# # print(marks["Anirban"])
+
+# marks.update({"Anirban": 99})
+
+# print(marks.get("Anirban"))
+
+# print(marks.keys())
+
+# print(marks.values())
+
+# print(marks.items())
+
+# empty_set = set() #This is an empty set, also no values can be repeated
+
+# s = {1, 2, 3, 4, 5, 5, 5, 5}
+
+# s.add(6)
+
+# print(s)
+
+# s1 = {1, 2, 3, 4, 5}
+# s2 = {4, 5, 6, 7, 8}
+
+# print(s1.union(s2)) #union of two sets₹
+
+# print(s1.intersection(s2)) #intersection of two sets
+
+# translations = {
+#     "hello": "hola",
+#     "goodbye": "adios",
+#     "thank you": "gracias",
+#     "please": "por favor"
+# }
+
+# # print(translations.get("hello"))
+
+# word = input("Enter a word to translate: ")
+# print(translations.get(word, "Translation not found."))
+
+# numbers = int(input("Enter 8 numbers separated by space: "))
+# print(numbers)
+
+# s = set()
+# s.add(20)
+# s.add('10')
+# s.add(20.0)
+# print(len(s))
+
+# dic = {}
+
+# n1 = input("Enter the name of the student: ")
+# m1 = int(input("Enter the marks of the student: ")) 
+
+# dic.update({n1: m1})
+# print(dic)
