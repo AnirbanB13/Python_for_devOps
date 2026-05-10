@@ -253,3 +253,7 @@ marks = {
 # else:    
 #     print("This message is not spam.")
 
+#loops in python#
+
+for i in range(1, 11, 2):
+    print(i)
