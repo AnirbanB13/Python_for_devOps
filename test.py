@@ -167,12 +167,12 @@
 # n = a.count(5)
 # print(n)
 
-marks = {
-    "Anirban": 95,
-    "Satyarth": 90,
-    "Rohit": 85,
-    "Harry": 80
-}
+# marks = {
+#     "Anirban": 95,
+#     "Satyarth": 90,
+#     "Rohit": 85,
+#     "Harry": 80
+# }
 
 # # # print(marks, type(marks))
 
@@ -374,4 +374,242 @@ marks = {
 #   print(fname + " " + lname)
 
 # fullname_func("John", "Mark")
+
+# def print_sum (num1, num2):
+#     sum = num1 + num2
+#     if(sum==0):
+#         return True
+#     print("The sum is: " + str(sum))
+# print_sum(-1, 1)
+
+# def square(i):
+#     j = i * i
+#     return j
+
+# print(square(3))
+
+# def is_true(a): 
+#   return bool(a)
+# result = is_true(3<6) 
+# print("The result is", result)
+
+# def square(i):
+#     j = i * i
+#     return j
+
+# num = 2
+# result = square(num)
+# print("The result of ", num, " is ", result)
+
+# def return_greeting():
+#   return "Hello, World"
+
+# print(return_greeting())
+
+# def my_function(x):
+#   return 5 + x
+
+# print(my_function(3))
+
+# def add(x, y):
+#   return x+y
+
+# def my_function(x):
+#   return 10 - x
+
+# print(my_function(4))
+
+# def my_function(x):
+#   return 10 / x
+# print(my_function(2))
+
+# def is_true(a): 
+#   return bool(a) 
+
+# result = is_true(6<3) 
+# print("The result is", result)
+
+# def multiply_values(list):
+#     multiplied_values = []
+    
+#     for item in list:
+#         multiplied_values.append(item * 2)
+    
+#     return multiplied_values
+
+# numbers = [1, 2, 3, 4, 5]
+# print(multiply_values(numbers))
+
+# def get_odd_func(numbers):
+#     odd_numbers = [num for num in numbers if num % 2]
+#     return odd_numbers
+
+# print(get_odd_func([1, 2, 3, 4, 5, 6]))
+
+# def get_even_func(numbers):
+#     even_numbers = [num for num in numbers if not num % 2]
+#     return even_numbers
+
+# print(get_even_func([1, 2, 3, 4, 5, 6]))
+
+
+# def mean_func(list1):
+#     return sum(list1) / len(list1)
+
+# print(mean_func([5, 2, 2, 4]))
+
+# def my_function(numbers):
+#   for i in numbers:
+#     print(i+1, end=' ')
+
+# numbers = [1, 2, 3] 
+# my_function(numbers)
+
+# def my_function(numbers):
+#   for i in numbers:
+#     print(i*2+10, end=' ')
+
+# numbers = [1, 2, 3]
+# my_function(numbers)
+
+# def my_function(names):
+#   for i in names:
+#     print(i, end=' ')
+
+# names = ["john", "mark", "emmy"]
+# my_function(names)
+
+# def double_list(numbers):
+#   return 2 * numbers
+
+# numbers = [1, 2, 3]
+# print(double_list(numbers))
+
+# def mean_func(list1):
+#     return sum(list1) / len(list1)
+
+# print(mean_func([5, 6, 7, 8]))
+
+# def my_function():
+#   def my_inner_function():
+#     x = 20
+#   print(x)
+#   my_inner_function()
+
+# my_function()
+
+
+# x = 30
+# def my_function():
+#   global x
+#   x = 20
+
+# my_function()
+# print(x)
+
+# x = 20
+# def my_function():
+#   print(x, end=' ')
+
+# my_function()
+# print(x, end=' ')
+
+# def my_function():
+#   def my_inner_function():
+#     x = 20
+#     print(x)
+#   my_inner_function()
+
+# my_function()
+
+
+# x = 20
+# def my_function():
+#   x = 30
+#   print(x, end=' ')
+
+# my_function()
+# print(x, end=' ')
+
+# def myfunc():
+#   a = 20
+#   print(a)
+
+# myfunc()
+
+# def myfunc():
+#   a = 20
+
+# myfunc()
+# print(a)
+
+# def my_function():
+#   global x
+#   x = 30
+
+# my_function()
+# print(x)
+
+
+# def my_function():
+#   x = 20
+#   def my_inner_function():
+#     print(x)
+#   my_inner_function()
+# my_function()
+
+# x = 20
+# def my_function():
+#   x = 30
+#   print(x, end=' ')
+
+# my_function()
+
+
+# def sum(*args):
+#     for arg in args:
+#         result += arg
+#     return result 
+
+# print(sum(2,3,1))
+
+# def my_function(*argv):
+#   print(argv[0])
+
+# my_function('Hello', 'World!')
+
+# def division(a,b):
+#     return a/b
+
+# print(division(8,2))
+
+# def sum(a,b):
+#     return a+b
+
+# print(sum(2,3))
+
+# def my_function(*ages):
+#   print("The older friend is " + ages[0] + " years")
+
+# my_function("13", "12", "11")
+
+
+# def my_function(*argv):  
+#     for arg in argv:  
+#         print(arg) 
+
+# my_function('Hello', 'World!')
+
+
+# def my_function(*argv):
+#   print(argv)
+
+# my_function('Hello', 'World!')
+
+# def my_function(arg1, *argv): 
+#     print ("First argument:", arg1) 
+#     for arg in argv: 
+#         print("Next argument:", arg) 
+
+# my_function('Welcome', 'to', 'Python!')
 
