@@ -255,5 +255,123 @@ marks = {
 
 #loops in python#
 
-for i in range(1, 11, 2):
-    print(i)
+# for i in range(1, 11, 2):
+#     print(i)
+
+# i = 1
+
+# while i <= 10:
+#     print(i)
+#     i += 1
+
+# for i in "harry":
+#     print(i)
+
+# i = 0
+
+# while i < 5:
+#     i = i + 1
+#     print("harry")
+
+# list = [1, "hello", 3.14, True]
+
+# i = 0
+
+# while (i < len(list)):
+#     print(list[i])
+#     i += 1
+
+# for i in range(4):
+#     print(i)
+
+
+# l = [1, 2, 3, 4, 5]
+
+# for item in l:
+#     print(item)
+# else:
+#     print("This is end...")
+
+# for i in range(100):
+#     if i == 34:
+#         break #exirt the loop right now
+#     print(i)
+
+
+# for i in range(100):
+#     if i == 34:
+#         continue #skip the current iteration and move to the next one
+#     print(i)
+
+# table = int(input("Enter the number to print its multiplication table: "))
+# for i in range(1, 11):
+#     print(f"{table} x {i} = {table * i}")
+
+
+# l = ["harry", "Soham", "Sachin", "rohit"]
+
+# for name in l:
+#     if(name.startswith("S")):
+#         print(f"Hello, {name}!")
+
+
+# i = 1
+
+# while i < 11:
+#     print(f"{table} x {i} = {table * i}")
+#     i += 1
+
+# n = int(input("Enter a number: "))
+# i = 1
+# sum = 0
+# while i <= n:
+#     sum += i 
+#     i += 1
+
+# print(sum)
+
+# n = int(input("Enter a number: "))
+# i = 1
+# factorial = 1
+# while i <= num:
+#     factorial *= i
+#     i += 1
+# print(factorial)
+
+# for i in range(1, n+1):
+#     print(" " * (n-i), end="")
+#     print("*" * (2*i-1), end="")
+#     print("")
+
+# def input_number(num):
+#     return int(input("Enter a number : ")) * num
+
+# print(input_number(num = 10))
+
+# a = 0
+# def add_three(a):
+# 	return a+3
+
+# result = add_three(3)
+# print(result)
+
+# def add_func(num1,num2):
+#         return num1 + num2
+# print ( add_func(5 , 5) )
+
+# def my_function(*friends):
+#   print("The tallest student is " + friends[0])
+
+# my_function("john", "Ella", "mark")
+
+
+# def fullname_func(fname):
+#   print(fname + " Mark")
+
+# fullname_func("John")
+
+# def fullname_func(fname, lname):
+#   print(fname + " " + lname)
+
+# fullname_func("John", "Mark")
+
