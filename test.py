@@ -613,3 +613,57 @@
 
 # my_function('Welcome', 'to', 'Python!')
 
+# tuple1 = (0, 1, 2, 3, 4, 5)
+
+# print(tuple1[0:4])
+
+# x = tuple(3)
+# print(x)
+
+# a = (10, [20, 30], 40, 50)
+
+# print(a.index(30))
+
+# a = (10, 20, 30, 40, 50)
+# a = a[::-1]
+# print(a)
+
+# testdict = {
+#   "brand": "apple",
+#   "ram": "3",
+#   "year": 2020,
+#   "year": 2021
+# }
+
+# print(testdict)
+
+
+# testdict = {
+#   "brand": "Samsung",
+#   "ram": "3",
+#   "Os": "Android",
+#   "year": 2020
+# }
+
+# testdict.update({'brand':'oppo' })
+# print(testdict)
+
+
+# testdict = {
+#   "brand": "Samsung",
+#   "ram": "3",
+#   "Os": "Android",
+#   "year": 2020
+# }
+
+# print(testdict.keys())
+
+# testdict = {
+#   "brand": "Samsung",
+#   "ram": "3",
+#   "Os": "Android",
+#   "year": 2020
+# }
+
+# print(testdict.items())
+
