@@ -671,3 +671,31 @@
 # for i in range(1, 11):
 #     print(f"{num} x {11 - i} = {num * (11 - i)}")
 
+##### functions #####
+
+# def average(num1, num2):
+#     return (num1 + num2) / 2
+# print(average(5, 10))
+
+# def func():  #function definition
+#     print("This is a function")
+
+# func() #function call
+
+# def goodDay(name, ending):
+#     print(f"Good day, {name} {ending}")
+#     return "great day!"
+
+# a = goodDay("Anirban", "thank you!")
+# print(a)
+
+###### recursion ######
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+    
+n = int(input("Enter a number to find its factorial: "))
+print(f"The factorial of {n} is {factorial(n)}")
