@@ -700,5 +700,35 @@
 # n = int(input("Enter a number to find its factorial: "))
 # print(f"The factorial of {n} is {factorial(n)}")
 
+# def pattern(n):
+#     if (n == 0):
+#         return
+#     print("*" * n)
+#     pattern(n-1)
 
+# pattern(10)
+
+# def inches_to_cm(inches):
+#     return inches * 2.54
+
+# n = float(input("Enter the number of inches: "))
+# print(f"{n} inches is equal to {inches_to_cm(n)} cm")
+
+# def rem(l, word):
+#     n = []
+#     for item in l:
+#         if item != word:
+#             n.append(item.strip(word))
+#     return n
+
+# l = ["Harry", "Soham", "Shubham", "am"]
+
+# print(rem(l, "am"))
+
+# def multiples(n):
+#     for i in range(1, 11):
+#         print(f"{n} x {i} = {n * i}")
+
+# n = int(input("Enter a number to print its multiplication table: "))
+# multiples(n)
 
