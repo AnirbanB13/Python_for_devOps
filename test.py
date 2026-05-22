@@ -732,3 +732,10 @@
 # n = int(input("Enter a number to print its multiplication table: "))
 # multiples(n)
 
+####### file input and output #######
+
+f = open("test.txt")
+data = f.read()
+print(data)
+f.close()
+
