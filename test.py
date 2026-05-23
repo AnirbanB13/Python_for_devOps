@@ -734,7 +734,7 @@
 
 ####### file input and output #######
 
-f = open("test01.txt")
+f = open("test.txt")
 data = f.read()
 print(data)
 f.close()
