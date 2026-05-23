@@ -734,7 +734,7 @@
 
 ####### file input and output #######
 
-f = open("text02.txt")
+f = open("text-commit.txt")
 data = f.read()
 print(data)
 f.close()
