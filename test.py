@@ -734,8 +734,51 @@
 
 ####### file input and output #######
 
-f = open("test.txt")
-data = f.read()
-print(data)
-f.close()
+# f = open("test.txt")
+# data = f.read()
+# print(data)
+# f.close()
+
+# str = "This is a test file.\nIt contains multiple lines of text.\nThis is the end of the file."
+# f = open("test.txt", "w")
+# f.write(str)
+# f.close()
+
+# f = open("test.txt", "r")
+# # data = f.readlines()
+
+# line1 = f.readline()
+# line2 = f.readline()
+# line3 = f.readline()
+# print(line1, line2, line3)
+# f.close()
+
+# line = f.readline()
+# while(line != ""):
+#     print(line)
+#     line = f.readline()
+# f.close()
+
+# The same can be achieved using with statement:
+
+# with open("test.txt", "r") as f:
+#     print(f.read())
+
+# word = input("Enter a word to search in the poem: ")
+# words = word.split()
+# for word in words:
+#     with open("poem.txt", "r") as f:
+#         content = f.read()
+#         if word in content:
+#             print(f"The word '{word}' is present in the poem.")
+#         else:
+#             print(f"The word '{word}' is not present in the poem.")
+        
+# word = input("Enter a word to search in the poem: ")
+# with open("poem.txt", "r") as f:    
+#     content = f.read()
+#     if word in content:
+#         print(f"The word '{word}' is present in the poem.")
+#     else:
+#        print(f"The word '{word}' is not present in the poem")
 
