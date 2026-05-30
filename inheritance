@@ -1,0 +1,46 @@
+# class Employee:
+#     company = "ITC"      #base/parent class
+#     def show(self):
+#         print(f"The name of the employee is {self.name} and the salary is {self.salary}")
+
+# class Programmer:
+#     company = "ITC Infotech"      #child/inherited class
+#     def showLanguage(Employee):
+#         print(f"The name is {self.name} and the language is {self.language}")
+
+# a = Employee()
+# b = Programmer()
+
+# print(a.company, b.company)
+
+
+class Employee:
+    a = 1
+
+class Programmer(Employee):
+    b = 2
+
+class Manager(Programmer):
+    c = 3
+    
+    @property
+    def name(self):
+        return self.name
+
+    @name.setter
+    def name(self, value):
+        self.name = value
+
+o = Employee()
+print(o.a)
+
+o = Programmer()
+print(o.a, o.b)
+
+o = Manager()
+print(o.a, o.b, o.c)
+
+name = "harry"
+
+print(f"Name is {self.name} and value is {self.value}")
+
